@@ -5,7 +5,7 @@ const WEAPONS = {
     {
       level: 1,
       bulletType: WeaponType.LEG,
-      name: '腿',
+      name: '剑',
       frameName: 'leg_bullet.png',
       description: '水平攻击，穿透敌人',
       tips: '',
@@ -48,9 +48,9 @@ const WEAPONS = {
     {
       level: 1,
       bulletType: WeaponType.FIST,
-      name: '拳',
+      name: '哼 音波功',
       frameName: 'fist_bullet.png',
-      description: '圆心攻击，穿透敌人',
+      description: '圆心攻击，喝退敌人',
       tips: '',
       isUnlocked: true,
       rarity: 100,
@@ -60,6 +60,7 @@ const WEAPONS = {
       area: 1,
       speed: 1,
       amount: 1,
+      knockback: 2,
       hitsWalls: false
     },
     {
@@ -90,8 +91,8 @@ const WEAPONS = {
     {
       level: 1,
       bulletType: WeaponType.BONE,
-      name: '骨',
-      description: '隐藏角色的骨头',
+      name: '飞剑',
+      description: '64把青竹蜂云剑',
       tips: '',
       frameName: 'bone_bullet.png',
       isUnlocked: true,
@@ -427,8 +428,8 @@ const WEAPONS = {
     {
       level: 1,
       bulletType: WeaponType.ROCK,
-      name: '石头',
-      description: '小时候扔过的石头，有点重，砸人很疼',
+      name: '火球',
+      description: '韩立的火球术',
       tips: '',
       frameName: 'rock_bullet.png',
       isUnlocked: true,
@@ -465,19 +466,19 @@ const WEAPONS = {
     {
       level: 1,
       bulletType: WeaponType.RADIOACTIVE,
-      name: '辐射',
-      description: '吃了来自某国家的海鲜，持续辐射敌人',
+      name: '护体罡气',
+      description: '仙气发动，谁也别过来',
       tips: '',
       frameName: 'radioactive_bullet.png',
       isUnlocked: true,
       rarity: 70,
       interval: 1000,
       repeatInterval: 0,
-      power: 0.5,
+      power: 1,
       area: 1,
       speed: 1,
       amount: 1,
-      knockback: 0
+      knockback: 2
     },
     {
       area: 0.4,

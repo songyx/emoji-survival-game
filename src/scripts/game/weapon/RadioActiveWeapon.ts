@@ -10,12 +10,12 @@ export default class RadioActiveWeapon extends BaseWeapon {
   constructor(bulletType: WeaponType, isNewWeapon: boolean = true) {
     super(bulletType, isNewWeapon)
     this.image = Game.Core.scene.add.image(0, 0, 'main', 'radioactive_bullet.png')
-    this.image.setAlpha(0.1)
+    this.image.setAlpha(0.9)
     this.image.copyPosition(Game.Core.Player)
     this.image.setScale(2 * GameCore.PixelScale * this.PArea)
     this.imageTween = Game.Core.scene.add.tween({
       targets: this.image,
-      alpha: 0.3,
+      alpha: 0.9,
       loop: true,
       yoyo: true,
       loopDelay: 100,

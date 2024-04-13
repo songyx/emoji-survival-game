@@ -13,6 +13,7 @@ export default class PreloadScene extends Phaser.Scene {
   preload() {
     this.load.image('bgTile', 'assets/img/bgTile.png')
     this.load.multiatlas('main', 'assets/img/main.json', 'assets/img')
+    this.load.spritesheet('chai', 'assets/img/chai1.png', { frameWidth: 64, frameHeight: 64 })
   }
 
   create() {

@@ -1,7 +1,7 @@
 {
 	"textures": [
 		{
-			"image": "main.png",
+			"image": "main1.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 1215,
@@ -14,20 +14,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 128,
-						"h": 116
+						"w": 156,
+						"h": 154
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 128,
-						"h": 116
+						"w": 156,
+						"h": 154
 					},
 					"frame": {
 						"x": 0,
-						"y": 0,
-						"w": 128,
-						"h": 116
+						"y": 216,
+						"w": 156,
+						"h": 154
 					},
 					"anchor": {
 						"x": 0.5,
@@ -114,20 +114,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 159,
-						"h": 64
+						"w": 233,
+						"h": 105
 					},
 					"spriteSourceSize": {
 						"x": 8,
 						"y": 0,
-						"w": 145,
-						"h": 64
+						"w": 233,
+						"h": 105
 					},
 					"frame": {
-						"x": 209,
-						"y": 0,
-						"w": 145,
-						"h": 64
+						"x": 353,
+						"y": 147,
+						"w": 233,
+						"h": 105
 					},
 					"anchor": {
 						"x": 0.5,
@@ -174,8 +174,8 @@
 						"h": 64
 					},
 					"frame": {
-						"x": 304,
-						"y": 64,
+						"x": 735,
+						"y": 160,
 						"w": 64,
 						"h": 64
 					},
@@ -189,20 +189,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 64,
-						"h": 64
+						"w": 63,
+						"h": 71
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 64,
-						"h": 64
+						"w": 63,
+						"h": 71
 					},
 					"frame": {
-						"x": 354,
-						"y": 0,
-						"w": 64,
-						"h": 64
+						"x": 657,
+						"y": 152,
+						"w": 63,
+						"h": 71
 					},
 					"anchor": {
 						"x": 0.5,
@@ -214,20 +214,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 64,
-						"h": 64
+						"w": 82,
+						"h": 108
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 64,
-						"h": 64
+						"w": 82,
+						"h": 108
 					},
 					"frame": {
-						"x": 368,
-						"y": 64,
-						"w": 64,
-						"h": 64
+						"x": 263,
+						"y": 144,
+						"w": 82,
+						"h": 108
 					},
 					"anchor": {
 						"x": 0.5,
@@ -314,20 +314,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 59,
-						"h": 64
+						"w": 72,
+						"h": 42
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 59,
-						"h": 64
+						"w": 72,
+						"h": 42
 					},
 					"frame": {
-						"x": 493,
-						"y": 64,
-						"w": 59,
-						"h": 64
+						"x": 864,
+						"y": 150,
+						"w": 72,
+						"h": 42
 					},
 					"anchor": {
 						"x": 0.5,
@@ -339,45 +339,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 59,
-						"h": 64
+						"w": 58,
+						"h": 54
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 59,
-						"h": 64
+						"w": 58,
+						"h": 54
 					},
 					"frame": {
-						"x": 541,
-						"y": 0,
-						"w": 59,
-						"h": 64
-					},
-					"anchor": {
-						"x": 0.5,
-						"y": 0.5
-					}
-				},
-				{
-					"filename": "ghost_boss1_enemy.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 59,
-						"h": 64
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 59,
-						"h": 64
-					},
-					"frame": {
-						"x": 552,
-						"y": 64,
-						"w": 59,
-						"h": 64
+						"x": 869,
+						"y": 199,
+						"w": 58,
+						"h": 54
 					},
 					"anchor": {
 						"x": 0.5,
@@ -389,20 +364,45 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 59,
-						"h": 64
+						"w": 64,
+						"h": 70
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 59,
-						"h": 64
+						"w": 64,
+						"h": 70
 					},
 					"frame": {
-						"x": 600,
+						"x": 944,
+						"y": 130,
+						"w": 64,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "ghost_boss1_enemy.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
 						"y": 0,
-						"w": 59,
-						"h": 64
+						"w": 75,
+						"h": 87
+					},
+					"frame": {
+						"x": 1015,
+						"y": 129,
+						"w": 75,
+						"h": 87
 					},
 					"anchor": {
 						"x": 0.5,
@@ -414,20 +414,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 59,
-						"h": 64
+						"w": 53,
+						"h": 46
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 59,
-						"h": 64
+						"w": 53,
+						"h": 46
 					},
 					"frame": {
-						"x": 611,
-						"y": 64,
-						"w": 59,
-						"h": 64
+						"x": 803,
+						"y": 144,
+						"w": 53,
+						"h": 46
 					},
 					"anchor": {
 						"x": 0.5,
@@ -639,20 +639,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 26,
-						"h": 64
+						"w": 23,
+						"h": 108
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 26,
-						"h": 64
+						"w": 23,
+						"h": 108
 					},
 					"frame": {
-						"x": 875,
-						"y": 0,
-						"w": 26,
-						"h": 64
+						"x": 629,
+						"y": 144,
+						"w": 23,
+						"h": 108
 					},
 					"anchor": {
 						"x": 0.5,
@@ -989,20 +989,20 @@
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 31,
-						"h": 32
+						"w": 34,
+						"h": 33
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 31,
-						"h": 32
+						"w": 34,
+						"h": 33
 					},
 					"frame": {
-						"x": 1117,
-						"y": 95,
-						"w": 31,
-						"h": 32
+						"x": 1198,
+						"y": 94,
+						"w": 34,
+						"h": 33
 					},
 					"anchor": {
 						"x": 0.5,
@@ -1014,20 +1014,20 @@
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
-						"h": 32
+						"w": 30,
+						"h": 42
 					},
 					"spriteSourceSize": {
 						"x": 6,
 						"y": 2,
-						"w": 20,
-						"h": 28
+						"w": 30,
+						"h": 42
 					},
 					"frame": {
-						"x": 1148,
-						"y": 95,
-						"w": 20,
-						"h": 28
+						"x": 1167,
+						"y": 92,
+						"w": 30,
+						"h": 42
 					},
 					"anchor": {
 						"x": 0.5,
@@ -1078,6 +1078,31 @@
 						"y": 46,
 						"w": 48,
 						"h": 44
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chai.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 10,
+						"w": 64,
+						"h": 54
+					},
+					"frame": {
+						"x": 8,
+						"y": 133,
+						"w": 65,
+						"h": 54
 					},
 					"anchor": {
 						"x": 0.5,

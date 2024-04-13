@@ -13,7 +13,6 @@ const BOSS_ENEMYS = {
       deathKB: 2,
       killedAmount: 0,
       xp: 30,
-      alpha: 0.5,
       spriteName: 'ghost_boss_enemy.png',
       scale: 1.5
     }
@@ -29,7 +28,7 @@ const BOSS_ENEMYS = {
       deathKB: 2,
       killedAmount: 0,
       xp: 30,
-      alpha: 0.5,
+      alpha: 0.8,
       spriteName: 'ghost_boss1_enemy.png',
       scale: 1.5
     }

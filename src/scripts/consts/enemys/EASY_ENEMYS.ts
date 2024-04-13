@@ -1,6 +1,19 @@
 import EnemyType from '../../enums/EnemyType'
 
 const EASY_ENEMYS = {
+  [EnemyType.CHAI]: [
+    {
+      level: 1,
+      maxHp: 1,
+      speed: 100,
+      power: 2,
+      knockback: 1,
+      deathKB: 1,
+      killedAmount: 0,
+      xp: 2.5,
+      spriteName: 'chai.png'
+    }
+  ],
   [EnemyType.GHOST1]: [
     {
       level: 1,
@@ -11,8 +24,7 @@ const EASY_ENEMYS = {
       deathKB: 2,
       xp: 1,
       killedAmount: 0,
-      spriteName: 'ghost_enemy.png',
-      alpha: 0.5
+      spriteName: 'ghost_enemy.png'
     }
   ],
   [EnemyType.GHOST2]: [
@@ -25,8 +37,7 @@ const EASY_ENEMYS = {
       deathKB: 2,
       xp: 1,
       killedAmount: 0,
-      spriteName: 'ghost1_enemy.png',
-      alpha: 0.5
+      spriteName: 'ghost1_enemy.png'
     }
   ],
   [EnemyType.GHOST3]: [
@@ -39,8 +50,7 @@ const EASY_ENEMYS = {
       deathKB: 2,
       xp: 1,
       killedAmount: 0,
-      spriteName: 'ghost2_enemy.png',
-      alpha: 0.5
+      spriteName: 'ghost2_enemy.png'
     }
   ],
   [EnemyType.BAT]: [

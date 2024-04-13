@@ -65,7 +65,7 @@ const STAGES: {
       maxDestructibles: 10,
       minimum: 10,
       frequency: 1500,
-      enemies: [EnemyType.GHOST1]
+      enemies: [EnemyType.GHOST1,EnemyType.CHAI]
     },
     {
       minute: 1,

@@ -15,7 +15,8 @@ enum EnemyType {
   GOBLIN = 'GOBLIN',
   HORN = 'HORN',
   ALIEN = 'ALIEN',
-  ALIEN_BOSS = 'ALIEN_BOSS'
+  ALIEN_BOSS = 'ALIEN_BOSS',
+  CHAI = 'CHAI'
 }
 
 export default EnemyType

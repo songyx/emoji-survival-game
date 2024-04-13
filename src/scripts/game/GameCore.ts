@@ -168,6 +168,11 @@ export default class GameCore {
     this.destructiblesPool.clear()
   }
 
+  /**
+   * 初始化游戏方法
+   * @param scene 
+   * @param character 
+   */
   InitGame(scene: Phaser.Scene, character: Characters) {
     this.scene = scene
     this.EnemyGroup = this.scene.add.group()
